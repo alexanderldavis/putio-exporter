@@ -1,0 +1,14 @@
+version: "3"
+services:
+  putio-exporter:
+    image: putio-exporter:latest
+    build:
+      dockerfile: ./Dockerfile
+    container_name: putio-exporter
+    environment:
+      - PUTIO_OAUTH_TOKEN=your-putio-oauth-token #TODO: Replace with your token
+      - PUTIO_EXPORTER_LISTEN_PORT=9101
+      - PUTIO_EXPORTER_METRICS_PATH="/metrics"
+    ports:
+      - 9101:9101
+    restart: unless-stopped
