@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/joho/godotenv v1.5.1
 	github.com/prometheus/client_golang v1.16.0
-	github.com/putdotio/go-putio v1.7.0
+	github.com/putdotio/go-putio v1.7.1
 	golang.org/x/oauth2 v0.11.0
 )
 
