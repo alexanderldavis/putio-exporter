@@ -1,5 +1,5 @@
 # Download project dependencies
-FROM golang:1.21 as build-stage
+FROM golang:1.22 as build-stage
 WORKDIR /app
 
 COPY go.mod go.sum ./
