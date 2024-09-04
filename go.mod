@@ -6,7 +6,7 @@ require (
 	github.com/joho/godotenv v1.5.1
 	github.com/prometheus/client_golang v1.19.0
 	github.com/putdotio/go-putio v1.7.1
-	golang.org/x/oauth2 v0.16.0
+	golang.org/x/oauth2 v0.23.0
 )
 
 require (
